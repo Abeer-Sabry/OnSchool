@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--owl carousel-->
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.css">
+    <!--Aos-->
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--cssstylesheet-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Responsive.css">
+</head>
+<body>
+   
+    <!--loader-->
+    <div class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!--/loader-->
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand col-md-4" href="#">OnSchool</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+           <div class="lists col-md-5">
+             <ul class="navbar-nav">
+               <li class="nav-item active">
+                 <a class="nav-link mx-2" aria-current="page" href="#Home">Home</a>
+                 <div></div>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link mx-2" href="#Courses">courses</a>
+                 <div></div>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link mx-2" href="#Programs" id="navbarDropdown" role="button">Programs</a>  
+                 <div></div>          
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link mx-2" href="#Teachers" tabindex="-1">Teachers</a>
+                 <div></div>
+               </li>
+             </ul>
+           </div>
+           <button class="btn col-md-3"><a href="#contact">contact us</a></button>
+        </div>
+      </div>
+    </nav>
+    
+    <!--header-->
+    <header id="Home">
+      <div class="overlay">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-7">
+                      <div class="header-info">
+                          <h1>Learn From The Expert</h1>
+                          <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
+                          <a href="" class="btn my-2" >Admission Now</a>
+                      </div>                      
+                   </div>
+                   <div class="col-md-5">
+                      <div class="header-form">
+                        <h3>Sign Up</h3>
+                        <form>
+                          <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email-Address" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                            <input type="password" class="form-control"  placeholder="Password" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-4">
+                            <input type="password" class="form-control" placeholder="Re-type Password" id="exampleInputPassword1">
+                          </div>
+                          <button type="submit" class="btn ">Sign Up</button>
+                        </form>
+                      </div>
+                   </div>
+
+              </div>
+          </div>
+      </div>
+    </header>
+    <!--/header-->
+    
+    <!--Courses-->
+    <section id="Courses" class="py-5">
+      <h1 class="text-center text-light"  data-aos="fade-up">Courses</h1>
+      <div class="container">
+          <div class=" courses-holder" data-aos="fade-up">
+           <div class="row justify-content-center  owl-carousel">
+            <div class="carousel-info mx-2 my-3">
+              <div class="img-holder">
+                <img src="images/4.jpg" alt="">
+              </div>
+              <div class="price">
+                <span class="pri">$99</span>
+              </div>
+              <span class="my-2 mx-4"><i class="far fa-clock"></i> 4lessons / 12week</span>
+              <h4 class="my-2 mx-4">js programming language</h4>
+              <p class="mx-4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores</p>
+              <div class="row2">
+                <div class="info1">
+                  <span class=" mx-4"><i class="fas fa-users"></i> 2,193 students</span>
+                </div>
+                <div class="info2">
+                  <span><i class="fas fa-sticky-note"></i> 2</span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-info mx-2 my-3">
+              <div class="img-holder">
+                <img src="images/6.jpg" alt="">
+              </div>
+              <div class="price">
+                <span class="pri">$82</span>
+              </div>
+              <span class="my-2 mx-4"><i class="far fa-clock"></i> 4lessons / 12week</span>
+              <h4 class="my-2 mx-4">study law of physics</h4>
+              <p class="mx-4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores</p>
+              <div class="row2">
+                <div class="info1">
+                  <span class=" mx-4"><i class="fas fa-users"></i> 2,193 students</span>
+                </div>
+                <div class="info2">
+                  <span><i class="fas fa-sticky-note"></i> 2</span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-info mx-2 my-3">
+              <div class="img-holder">
+                <img src="images/1.jpg" alt="">
+              </div>
+              <div class="price">
+                <span class="pri">$75</span>
+              </div>
+              <span class="my-2 mx-4"><i class="far fa-clock"></i> 4lessons / 12week</span>
+              <h4 class="my-2 mx-4">Logo design course</h4>
+              <p class="mx-4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores</p>
+              <div class="row2">
+                <div class="info1">
+                  <span class=" mx-4"><i class="fas fa-users"></i> 2,193 students</span>
+                </div>
+                <div class="info2">
+                  <span><i class="fas fa-sticky-note"></i> 2</span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-info mx-2 my-3">
+              <div class="img-holder">
+                <img src="images/3.jpg" alt="">
+              </div>
+              <div class="price">
+                <span class="pri">$50</span>
+              </div>
+              <span class="my-2 mx-4"><i class="far fa-clock"></i> 4lessons / 12week</span>
+              <h4 class="my-2 mx-4">js programming language</h4>
+              <p class="mx-4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores</p>
+              <div class="row2">
+                <div class="info1">
+                  <span class=" mx-4"><i class="fas fa-users"></i> 2,193 students</span>
+                </div>
+                <div class="info2">
+                  <span><i class="fas fa-sticky-note"></i> 2</span>
+                </div>
+              </div>
+            </div>
+            
+           
+            <!-- <div class="carousel-info mx-2 my-2">
+              <div class="img-holder">
+                <img src="images/1.jpg" alt="">
+              </div>
+              <span class="my-5"><i class="far fa-clock"></i> 4lessons / 12week</span>
+              <h4 class="my-2">Logo design course</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores</p>
+            </div> -->
+         
+      
+           </div>
+          </div>
+      </div>
+    </section>
+    <!--/Courses-->
+    
+    <!--Programs-->
+    <section id="Programs">
+      <div class="container">
+        <div class="programs-info"  data-aos="fade-up">
+          <h1>Our Programs</h1>
+          <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! <br> Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta <br> repudiandae in quas quibusdam ullam, illum sed veniam!</p>
+        </div>
+        <div class="row  justify-content-center align-items-center">
+          <div class="col-md-6 mx-5 img-holder"  data-aos="fade-right">
+            <img src="images/undraw_youtube_tutorial.svg" alt="">
+          </div>
+          <div class="col-md-3 img-info" data-aos="fade-left">
+            <h2>We Are Excellent In Education</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
+            <span><i class="fas fa-graduation-cap"></i> 22,931 Yearly Graduates</span> <br>
+            <span><i class="fas fa-university"></i>150 Universities Worldwide</span>
+          </div>
+        </div>
+        <div class="row  justify-content-center align-items-center">
+          <div class="col-md-3 img-info middle mm"  data-aos="fade-right">
+            <h2>Strive for Excellent</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
+            <span><i class="fas fa-graduation-cap"></i> 22,931 Yearly Graduates</span> <br>
+            <span><i class="fas fa-university"></i>150 Universities Worldwide</span>
+          </div>
+          <div class="col-md-6 img-holder" data-aos="fade-left" >
+            <img src="images/undraw_teaching.svg" alt="">
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 img-holder" data-aos="fade-right">
+            <img src="images/undraw_teacher.svg" alt="">
+          </div>
+          <div class="col-md-3 img-info" data-aos="fade-left">
+            <h2>Education is life</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
+            <span><i class="fas fa-graduation-cap"></i> 22,931 Yearly Graduates</span> <br>
+            <span><i class="fas fa-university"></i>150 Universities Worldwide</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Programs-->
+    
+    <!--Teachers-->
+    <section id="Teachers">
+      <div class="container">
+        <div class="techers-word text-center" data-aos="fade-up">
+          <h1>Our Teachers</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus <br> sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae <br> in quas quibusdam ullam, illum sed veniam!</p>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class=" tech-info col-md-4 text-center">
+            <div class="teacher-img">
+              <img src="images/person_1.jpg" alt="">
+            </div>
+            <div class="teacher-info my-5 text-center">
+              <h3>Benjamin Stone</h3>
+              <h6>Physics Teacher</h6>
+              <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Porro <br> eius suscipit delectus enim iusto <br> tempora, adipisci at provident.</p>
+            </div>
+          </div>
+          <div class=" tech-info col-md-4 text-center">
+            <div class="teacher-img">
+              <img src="images/person_2.jpg" alt="">
+            </div>
+            <div class="teacher-info my-5 text-center">
+              <h3>Benjamin Stone</h3>
+              <h6>Physics Teacher</h6>
+              <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Porro <br> eius suscipit delectus enim iusto <br> tempora, adipisci at provident.</p>
+            </div>
+          </div>
+          <div class=" tech-info col-md-4 text-center">
+            <div class="teacher-img">
+              <img src="images/person_3.jpg" alt="">
+            </div>
+            <div class="teacher-info my-5 text-center">
+              <h3>Benjamin Stone</h3>
+              <h6>Physics Teacher</h6>
+              <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Porro <br> eius suscipit delectus enim iusto <br> tempora, adipisci at provident.</p>
+            </div>
+          </div>     
+        </div>       
+      </div>
+    </section>
+    <!--/Teachers-->
+    
+    <!--recommend-->
+    <section id="recommend">
+        <div class="feedback text-center">
+          <div class="overlay">
+            <img src="images/person_4.jpg" alt="">
+            <h4 class="text-light my-4">Jerome Jensen</h4>
+            <p class="text-light">“ Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum rem soluta sit eius necessitatibus voluptate excepturi beatae ad eveniet <br> sapiente impedit quae modi quo provident odit molestias! Rem reprehenderit assumenda ”</p>
+          </div>
+        </div>        
+    </section>
+     <!--/recommend-->
+     
+     <!--details-->
+     <section id="details">
+        <img class="bob" src="images/blob_2.svg" alt="">          
+        <img  class="bolb" src="images/blob_1.svg" alt="">          
+      <div class="container">
+        <h1 class="text-center">Why Choose Us</h1>
+        <div class="row justify-content-center">
+          <div class="detail col-md-3 text-center">
+            <div class="row2">
+              <div class="icon1 d-flex align-items-center"> 
+                <span><i class="fas fa-graduation-cap"></i> </span>
+                <p>22,931 Yearly Graduates</p>
+              </div>
+              <div class="icon1 d-flex align-items-center">
+                <span><i class="fas fa-university"></i></span>
+                <p>150 Universities Worldwide</p>
+              </div>
+              <div class="icon1 d-flex align-items-center">
+                <span><i class="fas fa-university"></i></span>
+                <p>Top Professionals in The World</p>
+              </div>
+              <div class="icon1 d-flex align-items-center">
+                <span><i class="fas fa-university"></i></span>
+                <p>Expand Your Knowledge</p>
+              </div>
+              <div class="icon1 d-flex  align-items-center  text-start">
+                <span><i class="fas fa-university"></i></span>
+                <p class="">Best Online Teaching Assistant<br>Courses</p>
+              </div>
+              <div class="icon1 d-flex align-items-center">
+                <span><i class="fas fa-university"></i></span>
+                <p>Best Teachers</p>
+              </div>            
+            </div>
+          </div>
+          <div class="col-md-8 boy-img" data-aos="fade-left">
+            <img src="images/person_transparent.png" alt="">
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <!--/details-->
+    
+    <!--contact-->
+     <section id="contact" class="">
+       <div class="container">
+         <div class="row" >
+           <div class="col-md-6">
+               <h1 class="">Message Us</h1>
+               <p  class="col-md-12">Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+               <form action="">
+                <div class="names">
+                  <div class="first-name col-md-6">
+                    <input type="text" name="first name" placeholder="first name">
+                  </div>
+                  <div class="last-name col-md-6">
+                    <input type="text"  name="last name"  placeholder="last name">
+                  </div>
+                </div>
+                <input type="text" name="subject" placeholder="subject" class="col-md-12 my-4">
+                <input type="text" name="email" placeholder="email">
+                <textarea name="" id="" cols="30" rows="8" placeholder="write your message here" class="col-md-12 my-4"></textarea>
+                <button value="submit" class="col-md-6"> send message</button>
+              </form>
+           </div>           
+         </div>      
+       </div>
+     </section>
+    <!--/contact-->
+
+    <!--links-->
+    <section class="links d-flex justify-content-center">
+      <div class="container">
+        <div class="row py-5  d-flex justify-content-between ">
+          <div class="col-md-4 ">
+            <h2>About OneSchool</h2>
+            <p class="pr-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt sit quaerat dicta.</p>
+          </div>
+          <div class=" list col-md-2">
+            <h2>links</h2>
+            <ul class="p-0 text-primary">
+              <li><a href=""></a>home</li>
+              <li><a href=""></a>courses</li>
+              <li><a href=""></a>programs</li>
+              <li><a href=""></a>teachers</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>Subscribe</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt iure iusto architecto? Numquam, natus?</p>
+            <div class="row2 d-flex">
+              <input type="text" name="emial" placeholder="email" class="col-md-7">
+              <button value="submit" class="col-md-3">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/links-->
+
+    
+   <script src="js/jquery.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+   <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+   <script src="node_modules/aos/dist/aos.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
